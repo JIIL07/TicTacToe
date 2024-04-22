@@ -1,0 +1,12 @@
+
+.vs/
+
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.o
+
+build/
+bin/
