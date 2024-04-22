@@ -14,6 +14,7 @@ void Game::play() {
 
         if (row >= 0 && row < 3 && col >= 0 && col < 3 && board.makeMove(row, col, currentPlayer->getSymbol())) {
             if (board.checkWin()) {
+                board.display();
                 std::cout << "Player " << currentPlayer->getSymbol() << " wins!\n";
                 return;
             }
